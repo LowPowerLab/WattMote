@@ -5,9 +5,9 @@ Source files for WattMote - [a wireless KillAWatt mod similar to the TweetAWatt]
 See LowPowerLab for more details, schematic, assembly programming.
 
 
-[Moteinos](http://lowpowerlab.com/blog/2012/12/20/moteino-the-wireless-low-power-low-cost-arduino-clone/) are used to receive data from remote WattMotes. These WattMotes run [The WattMote.ino Arduino sketch](https://github.com/LowPowerLab/RFM12B/blob/master/Examples/WattMote/WattMote.ino)
-On the receiving end there is a Moteino that simply passes the incomming data through to the serial port. This data is then parsed by the WattMote.py script provided in this repository.
-<br/>
+[Moteinos](http://lowpowerlab.com/blog/2012/12/20/moteino-the-wireless-low-power-low-cost-arduino-clone/) are used to receive data from remote WattMotes. These WattMotes run [the WattMote.ino Moteino sketch](https://github.com/LowPowerLab/RFM12B/blob/master/Examples/WattMote/WattMote.ino).
+<br/>On the receiving end there is a Moteino that simply passes the incomming data through to the serial port. This data is then parsed by the WattMote.py script provided in this repository.
+<br/>See [this post](http://lowpowerlab.com/blog/2012/12/28/wattmote-motei…less-killawatt/) for details on how to setup your RaspberryPi to receive serial data from the receiving Moteino.
 
 ####Command line options for WattMote.py:
 
