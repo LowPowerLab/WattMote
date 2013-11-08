@@ -21,8 +21,8 @@
 */
 
 #include <RFM12B.h>
-#include <avr\sleep.h>
-#include <avr\delay.h>
+#include <avr/sleep.h>
+#include <avr/delay.h>
 #include <LowPower.h> //get library from: https://github.com/rocketscream/Low-Power
                       //writeup here: http://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/
 
